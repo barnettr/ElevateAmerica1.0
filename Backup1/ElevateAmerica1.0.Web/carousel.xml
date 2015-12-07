@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<carousel>
+	<assets>
+		<time key="rotationInterval">0:0:7</time>
+		<text key="learnMore">Read More</text>
+		<text key="expandYourSkills">Expand Your Skills</text>
+		<text key="topBackground">#ffeae9e6</text>
+	</assets>
+
+	<items>
+		<item>
+			<text key="headline">Microsoft Elevate America: providing people the technology skills and industry recognized certification employers want.</text>
+			<text key="regularBodyStart">Jessie Franco of Chicago, Illinois improved his job prospects by becoming certified in Microsoft Word, Excel and PowerPoint.</text>
+			<int key="textWidth">550</int>
+			<int key="textTopMargin">80</int>
+			<int key="textLeftMargin">350</int>
+			<text key="shapeColorStart">#FF629ECA</text>
+			<text key="shapeColorStop">#FF014F8D</text>
+			<image key="hero">assets/silverlight/bg_01.jpg</image>
+			<uri key="linkLearnMore">/elevate/success-stories.aspx</uri>
+			<uri key="linkExpandYourSkills">/elevate/ea_expandskills.aspx</uri>
+		</item>
+		<item>
+			<text key="headline">Microsoft Elevate America: helping people build a better future by building their technology skills.</text>
+			<text key="regularBodyStart">Sandy Mills of West Plains, Missouri is now eligible for jobs offering her better opportunity after gaining technology skills local employers require.</text>
+			<int key="textWidth">550</int>
+			<int key="textTopMargin">80</int>
+			<int key="textLeftMargin">350</int>
+			<text key="shapeColorStart">#FF629ECA</text>
+			<text key="shapeColorStop">#FF014F8D</text>
+			<image key="hero">assets/silverlight/bg_02.jpg</image>
+			<uri key="linkLearnMore">/elevate/success-stories.aspx</uri>
+			<uri key="linkExpandYourSkills">/elevate/ea_expandskills.aspx</uri>
+		</item>
+		<item>
+			<text key="headline">Microsoft Elevate America: growing small business by helping entrepreneurs obtain important technology skills.</text>
+			<text key="regularBodyStart">Jim Griffith of Jackson, Mississippi used what he learned about Microsoft Outlook to help grow, diversify, and scale his business.</text>
+			<int key="textWidth">550</int>
+			<int key="textTopMargin">80</int>
+			<int key="textLeftMargin">350</int>
+			<text key="shapeColorStart">#FF629ECA</text>
+			<text key="shapeColorStop">#FF014F8D</text>
+			<image key="hero">assets/silverlight/bg_03.jpg</image>
+			<uri key="linkLearnMore">/elevate/success-stories.aspx</uri>
+			<uri key="linkExpandYourSkills">/elevate/ea_expandskills.aspx</uri>
+		</item>
+		<item>
+			<text key="headline">Microsoft Elevate America: helping people be more productive.</text>
+			<text key="regularBodyStart">Shamra Coy of Colville, Washington is a more productive employee and provides greater benefit to her clients after completing Microsoft Word training.</text>
+			<int key="textWidth">541</int>
+			<int key="textTopMargin">80</int>
+			<int key="textLeftMargin">350</int>
+			<text key="shapeColorStart">#FF629ECA</text>
+			<text key="shapeColorStop">#FF014F8D</text>
+			<image key="hero">assets/silverlight/bg_04.jpg</image>
+			<uri key="linkLearnMore">/elevate/success-stories.aspx</uri>
+			<uri key="linkExpandYourSkills">/elevate/ea_expandskills.aspx</uri>
+		</item>
+	</items>
+</carousel>

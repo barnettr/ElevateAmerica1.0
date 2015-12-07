@@ -1,0 +1,181 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Microsoft Elevate America</title>
+	
+	<script type='text/javascript' src="js/MicrosoftAjax.js"></script>
+	<script type='text/javascript' src="js/Silverlight.js"></script>
+	<script type='text/javascript' src="js/SilverlightControl.js"></script>
+	<script type='text/javascript' src="js/SilverlightMedia.js"></script>
+	<script type='text/javascript' src="js/ExpressionPlayer.js"></script>
+	<script type='text/javascript' src="js/PlayerStrings.js"></script>
+	<script type='text/javascript' src="js/player.js"></script>
+	<script type='text/javascript' src="js/StartPlayer.js"></script>
+	<script type='text/javascript' src="js/jquery.js"></script>
+	<script type='text/javascript' src="js/shifter_jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/site.css" />
+    <!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+   
+    
+</head>
+<body class="home">
+<div id="page">
+
+	<div id="titleHeader">
+    	<div id="titleContent">
+				<img src="assets/titleElevate.gif"alt="Microsoft Elevate" />
+				<div id="navLinks">
+				<a href="ea_redeemvoucher.aspx">Redeem a Voucher</a> | <a href="ea_faq.aspx">FAQ</a> | <a href="http://www.microsoft.com/about/corporatecitizenship/us/default.mspx">Visit Corporate Citizenship Site</a>
+				</div>        
+        </div>
+    </div>
+	<div id="background">	
+        <div id="contentHolder">        
+            <div id="navBar">
+                 <ul>  
+                    <li id="Home" title="Home"><a href="index.html">Home</a></li>
+                    <li id="GettingStarted" title="Getting Started"><a href="ea_getstarted.aspx">Getting Started</a></li>
+                    <li id="ExpandYourSkills" title="Expand Your Skills"><a href="ea_expandskills.aspx">Expand Your Skills</a></li>
+                    <li id="Students" title="Students"><a href="ea_students.aspx">Students</a></li>
+                    <li id="Veterans" title="Veterans"><a href="veterans.html">Veterans</a></li>
+                    <li id="ITProfessionals" title="IT Professionals"><a href="ea_itprofessionals.aspx">IT Professionals</a></li>
+                    <li id="Entrepreneurs" title="Entrepreneurs"><a href="ea_entrepreneurs.aspx">Entrepreneurs</a></li>
+                    <li id="Stories" title="Stories"><a href="success-stories.html">Stories</a></li>
+                    <li id="ProgramInfo" title="Program Info"><a href="ProgramInfo.html">Program Info</a></li>
+                </ul>
+            </div>                              
+			<div id="hero-placeholder">
+				<div id="silverlightControlHost">
+					<object data="data:application/x-silverlight-2," type="application/x-silverlight-2" width="100%" height="100%">
+					  <param name="source" value="Carousel.xap"/>
+					  <param name="onError" value="onSilverlightError" />
+					  <param name="background" value="#eeeeee" />
+					  <param name="minRuntimeVersion" value="3.0.40624.0" />
+					  <param name="autoUpgrade" value="true" />
+					  <param name="initParams" value="XmlPath=carousel.xml" />
+					  <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=3.0.40624.0" style="text-decoration:none">
+ 						  <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" style="border-style:none" />
+					  </a>
+					</object>
+					
+					<iframe id="_sl_historyFrame" style="visibility:hidden;height:0px;width:0px;border:0px"></iframe>
+				</div>
+            </div>
+			<div id="sub-content-holder-small">	
+                
+                <div id="pillar-one">
+                    
+                    <ul class="headers">
+                    
+                        <li class="pillar-one-title">
+                        
+                        </li>
+                        
+                        <li class="pillar-one-hero">
+                        
+                        </li>
+                        
+                        <li class="pillar-one-description">
+                            Find the Elevate America resources available near you.
+                        </li>
+                        
+                        <li class="view-states">
+                            <div><img src="assets/right-arrow.gif" align="absmiddle" alt="View Participating States" /> <a href="http://www.microsoft.com/About/CorporateCitizenship/us/CommunityInvestment/participatingstatesmap.aspx">View Participating States</a></div>
+                        </li>
+                    
+                    </ul>
+                    
+                    <ul id="twitter">
+                    
+                        <li class="twitter-icon"></li>
+                        
+                        <li class="twitter-info">
+                            <a href="http://twitter.com/elevateamerica">Follow us on Twitter</a>
+                        </li>
+                    
+                    </ul>
+                    
+                </div>
+                
+                <div id="pillar-two">
+                
+                    <ul class="headers">
+                    
+                        <li class="pillar-two-title"></li>
+                        
+                        <li class="pillar-two-hero"></li>
+                        
+                        <li class="pillar-two-description">
+                            Get started learning with Elevate America today.                                
+                        </li>
+                        
+                        <li class="view-states">
+                            <div><img src="assets/right-arrow.gif" align="absmiddle" alt="View Participating States" /> <a href="http://www.microsoft.com/about/corporatecitizenship/us/communityinvestment/ea_redeemvoucher.aspx">Redeem your voucher</a></div>
+                        </li>
+                        
+                        <li class="view-states">
+                            <div><img src="assets/right-arrow.gif" align="absmiddle" alt="View Participating States" /> <a href="http://www.microsoft.com/About/CorporateCitizenship/us/CommunityInvestment/participatingstatesmap.aspx">Learn how to get a voucher</a></div>
+                        </li>
+                    
+                    </ul>
+                
+                </div>
+                
+                <div id="pillar-three">
+                
+                    <ul class="headers">
+                    
+                        <li class="pillar-three-title"></li>
+                        
+                        <li class="pillar-three-hero"></li>
+                        
+                        <li class="pillar-three-description">
+                            See how Elevate America is making a difference.                                
+                        </li>
+                        
+                        <li class="view-states">
+                            <div><img src="assets/right-arrow.gif" align="absmiddle" alt="View Participating States" /> <a href="">Watch the Video</a></div>
+                        </li>
+                        
+                        <li class="view-states">
+                            <div><img src="assets/right-arrow.gif" align="absmiddle" alt="View Participating States" /> <a href="">See More of Elevate America in Action</a></div>
+                        </li>
+                    
+                    </ul>
+                
+                </div>
+                
+                
+                
+            </div>
+            
+		</div>
+		<div id="contentHolder-bottom"> </div> 
+		<div id="footer">
+		    
+		    <div id="footer-wrapper">
+		        <ul id="profile">
+    		    
+		            <li class="profile-links">
+		                <a href="">Manage Your Profile</a>  |  <a href="">Contact Us</a>
+		            </li>
+		            
+		            <li class="copy-links">
+		                &#169; 2010 Microsoft Corporation. All rights reserved. <a href="">Terms of Use</a>  |  <a href="">Trademarks</a>  |  <a href="">Privacy Statement</a>
+		            </li>
+    		    
+		        </ul>
+		    </div>
+		    
+		</div>       
+	</div>
+    
+ 
+</div>
+  
+</body>
+</html>
+

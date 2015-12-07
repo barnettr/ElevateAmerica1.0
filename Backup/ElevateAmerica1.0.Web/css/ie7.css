@@ -1,0 +1,27 @@
+﻿ul#twitter-program {
+    height: 41px;
+}
+
+ul#learn-more { 
+    margin-top: 26px !important;
+}
+
+ul#learn-more-success {
+    margin-top: 40px !important;
+}
+
+ul#learn-more-program {
+    margin-top: 120px !important;
+}
+
+div#repeater-program {
+    background-image: url(../assets/content-repeater.gif);
+	background-repeat:repeat-y;
+	margin: 0 14px 0 15px;
+	height: 130px;
+}
+
+#repeater-program #left-placeholder img.placeholder {
+    width: 298px;
+    height: 130px;
+}

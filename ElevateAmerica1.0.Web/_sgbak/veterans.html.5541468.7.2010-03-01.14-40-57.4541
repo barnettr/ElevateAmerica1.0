@@ -1,0 +1,207 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Microsoft Elevate America</title>
+	
+	<script type='text/javascript' src="js/MicrosoftAjax.js"></script>
+	<script type='text/javascript' src="js/Silverlight.js"></script>
+	<script type='text/javascript' src="js/SilverlightControl.js"></script>
+	<script type='text/javascript' src="js/SilverlightMedia.js"></script>
+	<script type='text/javascript' src="js/ExpressionPlayer.js"></script>
+	<script type='text/javascript' src="js/PlayerStrings.js"></script>
+	<script type='text/javascript' src="js/player.js"></script>
+	<script type='text/javascript' src="js/StartPlayer.js"></script>
+	<script type='text/javascript' src="js/jquery.js"></script>
+	<script type='text/javascript' src="js/shifter_jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/site.css" />
+    <!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->	
+
+</head>
+<body class="Veterans">
+<div id="page">
+
+	<div id="titleHeader">
+    	<div id="titleContent">
+				<img src="assets/titleElevate.gif"alt="Microsoft Elevate" />
+				<div id="navLinks">
+				<a href="ea_redeemvoucher.aspx">Redeem a Voucher</a> | <a href="ea_faq.aspx">FAQ</a> | <a href="http://www.microsoft.com/about/corporatecitizenship/us/default.mspx">Visit Corporate Citizenship Site</a>
+				</div>        
+        </div>
+    </div>
+	<div id="background">	
+        <div id="contentHolder">
+            <div id="navBar">
+                 <ul>  
+                    <li id="Home" title="Home"><a href="index.html">Home</a></li>
+                    <li id="GettingStarted" title="Getting Started"><a href="ea_getstarted.aspx">Getting Started</a></li>
+                    <li id="ExpandYourSkills" title="Expand Your Skills"><a href="ea_expandskills.aspx">Expand Your Skills</a></li>
+                    <li id="Students" title="Students"><a href="ea_students.aspx">Students</a></li>
+                    <li id="Veterans" title="Veterans"><a href="veterans.html">Veterans</a></li>
+                    <li id="ITProfessionals" title="IT Professionals"><a href="ea_itprofessionals.aspx">IT Professionals</a></li>
+                    <li id="Entrepreneurs" title="Entrepreneurs"><a href="ea_entrepreneurs.aspx">Entrepreneurs</a></li>
+                    <li id="Stories" title="Stories"><a href="success-stories.html">Stories</a></li>
+                    <li id="ProgramInfo" title="Program Info"><a href="ProgramInfo.html">Program Info</a></li>
+                </ul>
+            </div>                     
+			<div id="veteran-hero">
+           
+            </div>
+			<div id="sub-content-holder">	
+                
+                <div id="left-inline">
+                
+                    <ul id="side-bucket-holder">
+                    
+                        <li class="side-return"><a href="ProgramInfo.html"><span class="offscreen">Where we are today.</span></a></li>
+                        
+                    </ul>
+                    
+                    <ul>
+                    
+                        <li class="map">
+                            <a href="http://www.microsoft.com/About/CorporateCitizenship/us/CommunityInvestment/participatingstatesmap.aspx"><span class="offscreen">View Participating States.</span></a>
+                        </li>
+                    
+                    </ul>
+                
+                </div>
+                
+                <div class="right-inline">
+                
+                    <ul id="about-elevate-america">
+                    
+                        <li id="title"><h2>Veterans and their Families </h2></li>
+                    
+                    </ul>
+                    
+                    <ul class="veterans">
+                    
+                        <li class="in-action">                            
+                            
+                            Building on our long history in skills training and the Elevate America initiative launched last year, Microsoft is announcing the Elevate America's Veterans Initiative to help prepare our country's veterans and their families with the skills and resources they need to be successful in today's workplace.
+
+                            Through this initiative, Microsoft will provide $2 million in cash and $6 million software over the next two years to help fund programs that will provide career counseling, job training, job placement and support services to veterans and their families.
+
+                            This initiative will be conducted through a request for proposals (RFP) that will award cash, software and other resources to eligible entities or partnerships of entities. This may include organizations in the nonprofit, workforce development and education space that demonstrate proven, successful performance in serving Veterans and their families in job training and job placement and are able to provide the other support services these individuals need to be successful in this career transition, including things like childcare and transportation assistance.
+                            
+                            <p class="disc-black">
+                                Year one of this initiative will seek to fund grantees with demonstrated expertise in workforce development that will provide the skills training, job placement and related support needed to connect veterans and their families to sustainable and meaningful jobs and careers.
+                            </p>
+                            
+                            <p class="disc-black">
+                                Year two of the program will deepen the work from year one, inviting the most successful of the initial awardees to apply for additional competitive funding to help scale a select number of programs.
+                            </p>
+                        
+                        </li>
+                        
+                    </ul>
+                    
+                    <div class="space-clear"></div>
+                    
+                    <div class="break"></div>
+                    
+                    <ul class="about-elevate-america">
+                    
+                        <li class="title"><h2>Elevate America Veteran's Initiative Coalition</h2></li>
+                    
+                    </ul>
+                    
+                    <ul class="veterans">
+                    
+                        <li class="in-action">
+                            Additionally, Microsoft is convening a coalition of public, private and nonprofit organizations interested in supporting this initiative and contributing cash, in kind resources and other expertise in support of U.S. Veterans and their families.                        
+                        </li>
+                        
+                        <li class="in-action">
+                            Organizations interested learning more about this coalition should review the below materials.
+                        </li>
+                    
+                    </ul>
+                    
+                    <div class="space-clear"></div>
+                    
+                    <div class="break"></div>
+                    
+                    <ul id="stay-connected">
+                    
+                        <li class="blue-title">Stay Connected</li>
+                    
+                    </ul>
+                    
+                    <ul id="receive-information">
+                
+                        <li class="in-state">
+                            Receive information on updates to the Elevate America program, including notification of when it becomes available in your state.
+                        </li>
+                
+                    </ul>
+                    
+                    <ul id="twitter">
+                    
+                        <li class="twitter-icon"></li>
+                        
+                        <li class="twitter-info">
+                             <a href="http://twitter.com/elevateamerica">Follow us on Twitter</a>
+                        </li>
+                    
+                    </ul>
+                    
+                    <ul id="learn-more">
+                
+                        <li class="learn-more-icon"></li>
+                        
+                        <li class="learn-more-info">
+                            <a href="">Learn more about Microsoft technology training programs in your community</a>
+                        </li>
+                
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            <!--<div id="repeater">
+                
+                <div id="left-placeholder">
+                
+                    <img src="assets/placeholder.gif" class="placeholder" alt="placeholder" />
+                
+                </div>
+                
+                <div class="right-inline">
+                    
+                    
+                
+                </div>
+                
+            </div>-->
+            <div id="sub-content-footer"></div>
+		</div>
+		<div id="contentHolder-bottom"> </div> 
+		<div id="footer">
+		    
+		    <div id="footer-wrapper">
+		        <ul id="profile">
+    		    
+		            <li class="profile-links">
+		                <a href="">Manage Your Profile</a>  |  <a href="">Contact Us</a>
+		            </li>
+		            
+		            <li class="copy-links">
+		                &#169; 2010 Microsoft Corporation. All rights reserved. <a href="">Terms of Use</a>  |  <a href="">Trademarks</a>  |  <a href="">Privacy Statement</a>
+		            </li>
+    		    
+		        </ul>
+		    </div>
+		    
+		</div>       
+	</div>
+    
+ 
+</div>
+  
+</body>
+</html>
+

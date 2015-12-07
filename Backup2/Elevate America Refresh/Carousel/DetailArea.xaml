@@ -1,0 +1,97 @@
+﻿<UserControl x:Class="Carousel.DetailArea"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:conv="clr-namespace:Carousel.Web.Converters"
+	Loaded="UserControl_Loaded"
+    xmlns:stk="clr-namespace:System.Windows.Controls;assembly=Pop.Silverlight.Toolkit">
+	<UserControl.Resources>
+		<conv:ShapeToVisibilityConverter x:Key="STVC" />
+		<Storyboard x:Name="GrowArea" BeginTime="0:0:0.25">
+			<DoubleAnimation Storyboard.TargetName="Headline" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="0:0:0.55" To="1" Duration="0:0:.2" />
+			<DoubleAnimation Storyboard.TargetName="Headline" Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.Y)" BeginTime="0:0:0.55" From="-10" To="0" Duration="0:0:.2" />			
+			<DoubleAnimation Storyboard.TargetName="DetailText" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="0:0:0.75" To="1" Duration="0:0:.2" />
+			<DoubleAnimation Storyboard.TargetName="DetailText" Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.Y)" BeginTime="0:0:0.75" From="-10" To="0" Duration="0:0:.2" />
+            <DoubleAnimation Storyboard.TargetName="Link" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="0:0:01.25" To="1" Duration="0:0:.2" />
+			<DoubleAnimation Storyboard.TargetName="Link" Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.X)" BeginTime="0:0:1.25" From="-10" To="0" Duration="0:0:.2" />
+
+		</Storyboard>
+		<Storyboard x:Name="ShapeClose">
+			<DoubleAnimation Storyboard.TargetName="Headline" Storyboard.TargetProperty="(UIElement.Opacity)" To="0" Duration="0:0:.1" />
+			<DoubleAnimation Storyboard.TargetName="DetailText" Storyboard.TargetProperty="(UIElement.Opacity)" To="0" Duration="0:0:.1" />
+            <DoubleAnimation Storyboard.TargetName="Link" Storyboard.TargetProperty="(UIElement.Opacity)" To="0" Duration="0:0:.1" />
+		</Storyboard>
+	</UserControl.Resources>
+	<Grid x:Name="LayoutRoot">
+		<Canvas Width="920">
+			<StackPanel x:Name="CallToActionContent" Orientation="Vertical"
+							Canvas.Left="{Binding Converter={StaticResource XC}, ConverterParameter=textLeftMargin}"
+							Canvas.Top="{Binding Converter={StaticResource XC}, ConverterParameter=textTopMargin}"
+							>
+                <stk:WrapPanel x:Name="DetailText" Opacity="0" Orientation="Horizontal" Width="{Binding Converter={StaticResource XC},ConverterParameter=textWidth}">
+					<stk:WrapPanel.RenderTransform>
+						<TranslateTransform />
+					</stk:WrapPanel.RenderTransform>
+
+					<TextBlock 
+						x:Name="Headline"
+						Opacity="0"
+						Width="{Binding Converter={StaticResource XC},ConverterParameter=textWidth}"
+						Style="{StaticResource WhiteText}"
+						Text="{Binding Converter={StaticResource XC},ConverterParameter=headline}"
+                        FontSize="24" LineStackingStrategy="BlockLineHeight" LineHeight="24" FontFamily="Segoe UI">
+						<TextBlock.RenderTransform>
+							<TranslateTransform />
+						</TextBlock.RenderTransform>
+					</TextBlock>
+					<TextBlock x:Name="SubheadlineStart"
+								Style="{StaticResource WhiteText}"
+								Text="{Binding Converter={StaticResource XC},ConverterParameter=regularBodyStart}"
+								Margin="0,20,0,0" FontFamily="Segoe UI" />
+				</stk:WrapPanel>
+				<Grid Margin="0,30,0,0">
+					<StackPanel x:Name="Link"
+									  Opacity="0" Orientation="Horizontal">
+					<StackPanel.RenderTransform>
+							<TranslateTransform />
+						</StackPanel.RenderTransform>
+						<HyperlinkButton  
+										HorizontalAlignment="Left" 									 
+										 Visibility="{Binding Converter={StaticResource VC}, ConverterParameter=linkLearnMore}"
+										 NavigateUri="{Binding Converter={StaticResource XC}, ConverterParameter=linkLearnMore}"
+										 Foreground="{Binding Converter={StaticResource XC},ConverterParameter=shapeColorStart}"
+										 Background="{Binding Converter={StaticResource XC},ConverterParameter=shapeColorStop}" Height="25" 
+										 Margin="10,0,0,0" 
+										 Style="{StaticResource ArrowHyperlink}">
+											
+
+						<TextBlock Margin="-1,4,0,0" VerticalAlignment="Center" Text="{Binding Assets, Source={StaticResource XmlLoader},Converter={StaticResource XC},ConverterParameter=learnMore}" 
+											  
+								   FontFamily="Segoe Bold" FontSize="11"
+								    Foreground="#969696" />
+
+					</HyperlinkButton>
+						<HyperlinkButton  
+									 
+										HorizontalAlignment="Left" 									 
+										 Visibility="{Binding Converter={StaticResource VC}, ConverterParameter=linkExpandYourSkills}"
+										 NavigateUri="{Binding Converter={StaticResource XC}, ConverterParameter=linkExpandYourSkills}"
+										 Foreground="{Binding Converter={StaticResource XC},ConverterParameter=shapeColorStart}"
+										 Background="{Binding Converter={StaticResource XC},ConverterParameter=shapeColorStop}" Height="25" 
+										 Margin="10,0,0,0"
+										 Style="{StaticResource ArrowHyperlink}">
+							<HyperlinkButton.RenderTransform>
+								<TranslateTransform />
+							</HyperlinkButton.RenderTransform>
+
+							<TextBlock Margin="-1,4,0,0" VerticalAlignment="Center" Text="{Binding Assets, Source={StaticResource XmlLoader},Converter={StaticResource XC},ConverterParameter=expandYourSkills}" 
+											  
+								   FontFamily="Segoe Bold" FontSize="11"
+								    Foreground="#969696" />
+
+						</HyperlinkButton>
+					</StackPanel>
+				</Grid>
+			</StackPanel>
+		</Canvas>
+	</Grid>
+</UserControl>

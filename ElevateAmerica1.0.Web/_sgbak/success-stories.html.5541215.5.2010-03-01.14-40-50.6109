@@ -1,0 +1,220 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Microsoft Elevate America</title>
+	
+	<script type='text/javascript' src="js/MicrosoftAjax.js"></script>
+	<script type='text/javascript' src="js/Silverlight.js"></script>
+	<script type='text/javascript' src="js/SilverlightControl.js"></script>
+	<script type='text/javascript' src="js/SilverlightMedia.js"></script>
+	<script type='text/javascript' src="js/ExpressionPlayer.js"></script>
+	<script type='text/javascript' src="js/PlayerStrings.js"></script>
+	<script type='text/javascript' src="js/player.js"></script>
+	<script type='text/javascript' src="js/StartPlayer.js"></script>
+	<script type='text/javascript' src="js/jquery.js"></script>
+	<script type='text/javascript' src="js/shifter_jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/site.css" />
+    <!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+	
+
+</head>
+<body class="Stories">
+<div id="page">
+
+	<div id="titleHeader">
+    	<div id="titleContent">
+				<img src="assets/titleElevate.gif"alt="Microsoft Elevate" />
+				<div id="navLinks">
+				<a href="ea_redeemvoucher.aspx">Redeem a Voucher</a> | <a href="ea_faq.aspx">FAQ</a> | <a href="http://www.microsoft.com/about/corporatecitizenship/us/default.mspx">Visit Corporate Citizenship Site</a>
+				</div>        
+        </div>
+    </div>
+	<div id="background">	
+        <div id="contentHolder">
+            <div id="navBar">
+                 <ul>  
+                    <li id="Home" title="Home"><a href="index.html">Home</a></li>
+                    <li id="GettingStarted" title="Getting Started"><a href="ea_getstarted.aspx">Getting Started</a></li>
+                    <li id="ExpandYourSkills" title="Expand Your Skills"><a href="ea_expandskills.aspx">Expand Your Skills</a></li>
+                    <li id="Students" title="Students"><a href="ea_students.aspx">Students</a></li>
+                    <li id="Veterans" title="Veterans"><a href="veterans.html">Veterans</a></li>
+                    <li id="ITProfessionals" title="IT Professionals"><a href="ea_itprofessionals.aspx">IT Professionals</a></li>
+                    <li id="Entrepreneurs" title="Entrepreneurs"><a href="ea_entrepreneurs.aspx">Entrepreneurs</a></li>
+                    <li id="Stories" title="Stories"><a href="success-stories.html">Stories</a></li>
+                    <li id="ProgramInfo" title="Program Info"><a href="ProgramInfo.html">Program Info</a></li>
+                </ul>
+            </div>                     
+			<div id="progress-hero">
+           
+            </div>
+			<div id="sub-content-holder">	
+                
+                <div id="left-inline">
+                
+                    <ul id="side-bucket-holder">
+                    
+                        <li class="side-return"><a href="ProgramInfo.html"><span class="offscreen">Return To Program Info.</span></a></li>
+                    
+                    </ul>
+                    
+                    <ul>
+                    
+                        <li class="map">
+                            <a href="http://www.microsoft.com/About/CorporateCitizenship/us/CommunityInvestment/participatingstatesmap.aspx"><span class="offscreen">View Participating States.</span></a>
+                        </li>
+                    
+                    </ul>
+                
+                </div>
+                
+                <div class="right-inline">
+                
+                    <ul id="about-elevate-america">
+                    
+                        <li id="title"><h2>Elevate America in Action</h2></li>
+                    
+                    </ul>
+                    
+                    <ul id="content-and-video">
+                    
+                        <li id="in-action">
+                            Elevate America was designed to help all people. Whether an individual is unemployed or employed and regardless of age, education, job history, work experience or industry sector, this program helps them get the education and training they need for success in the workplace today and in the future. Through Elevate America, people are gaining the basic and intermediate level technology skills they need to be more employable, sharpen skills to retain current employment, apply for jobs they were not previously skilled for, and have confidence to continue the hard work of looking for jobs in a slowly improving economy.
+                        </li>
+                        
+                    </ul>
+                    
+                    <div class="space-clear"></div>
+                    
+                    <div class="break"></div>
+                    
+                    <ul id="how-it-works">
+                    
+                        <li class="blue-title">Stories of Success from Around the Country</li>
+                        
+                    </ul>
+                    
+                    <ul id="sucess-stories">
+                    
+                        <li class="story-one-image"></li>
+                        
+                        <li class="story-one-information">
+                        
+                            Jesse Franco<br /><br />
+                            <span class="bold">Industry-recognized certification of his technology skills increased his value to potential employers. Chicago, IL</span><br /><br />
+                            <span class="sucess-info">
+                                Unemployed college graduate, Jesse Franco, did not expect it would not be so hard to get a job after his company downsized due to the poor economy.   Jesse heard about Elevate America and the opportunity to get free vouchers for Microsoft certification. He knew that certifications validating his skills on Microsoft’s products would strengthen his resume and show employers he has the skills they are looking for.
+                            </span>
+                            <div class="case-study"><img src="assets/right-arrow.gif" align="absmiddle" alt="View Participating States" /> <a href="">Download Case Study [PDF]</a></div>
+                        </li>
+                        
+                        <li class="story-two-image"></li>
+                        
+                        <li class="story-one-information">
+                        
+                            Shamra Coy<br /><br />
+                            <span class="bold">Gained new technology skills, making her a more productive employee, manager and trainer. Colville, Washington</span><br /><br />
+                            <span class="sucess-info">
+                                A key staff member of a small nonprofit in rural Washington State, Shamra knew she needed to upgrade her technology skills to be a more effective and productive employee. She used the training to first educate herself, and then began sharing her skills and knowledge with her co-workers and the clients she serves.
+                            </span>
+                            <div class="case-study"><img src="assets/right-arrow.gif" align="absmiddle" alt="View Participating States" /> <a href="Shamra Coy - Elevate America.pdf" target="_blank">Download Case Study [PDF]</a></div>
+                        </li>
+                        
+                        <li class="story-three-image"></li>
+                        
+                        <li class="story-one-information">
+                        
+                            Jim Griffith<br /><br />
+                            <span class="bold">[Need Jim's title] Jackson, Mississippi</span><br /><br />
+                            <span class="sucess-info">
+                                Lobortis nisl quis duis in decima. Feugiat littera nunc est dolore luptatum. Processus parum laoreet typi minim duis. Parum velit odio odio ullamcorper velit. Per litterarum odio nulla augue veniam. Molestie sequitur tation sed te in. Assum cum id amet accumsan feugiat. Qui in vel tempor congue tation. Dolor dolor dolor putamus et dynamicus.
+                            </span>
+                            <div class="case-study"><img src="assets/right-arrow.gif" align="absmiddle" alt="View Participating States" /> <a href="">Download Case Study [PDF]</a></div>
+                        </li>
+                    
+                    </ul>
+                    
+                    <div class="space-clear"></div>
+                    
+                    <div class="break"></div>
+                    
+                    <ul id="stay-connected">
+                    
+                        <li class="blue-title">Stay Connected</li>
+                    
+                    </ul>
+                    
+                    <ul id="receive-information">
+                
+                        <li class="in-state">
+                            Receive information on updates to the Elevate America program, including notification of when it becomes available in your state.
+                        </li>
+                
+                    </ul>
+                    
+                    <ul id="twitter-success">
+                    
+                        <li class="twitter-icon"></li>
+                        
+                        <li class="twitter-info">
+                            <a href="http://twitter.com/elevateamerica">Follow us on Twitter</a>
+                        </li>
+                    
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            <div id="repeater">
+                
+                <div id="left-placeholder">
+                
+                    <img src="assets/placeholder.gif" class="placeholder" alt="placeholder" />
+                
+                </div>
+                
+                <div class="right-inline">
+                    
+                    <ul id="learn-more-success">
+                
+                        <li class="learn-more-icon"></li>
+                        
+                        <li class="learn-more-info">
+                            Learn more about Microsoft technology training programs in your community
+                        </li>
+                
+                    </ul>
+                
+                </div>
+                
+            </div>
+            <div id="sub-content-footer"></div>
+		</div>
+		<div id="contentHolder-bottom"> </div> 
+		<div id="footer">
+		    
+		    <div id="footer-wrapper">
+		        <ul id="profile">
+    		    
+		            <li class="profile-links">
+		                <a href="">Manage Your Profile</a>  |  <a href="">Contact Us</a>
+		            </li>
+		            
+		            <li class="copy-links">
+		                &#169; 2010 Microsoft Corporation. All rights reserved. <a href="">Terms of Use</a>  |  <a href="">Trademarks</a>  |  <a href="">Privacy Statement</a>
+		            </li>
+    		    
+		        </ul>
+		    </div>
+		    
+		</div>       
+	</div>
+    
+ 
+</div>
+  
+</body>
+</html>
+

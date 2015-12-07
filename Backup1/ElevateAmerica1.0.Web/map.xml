@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elevate>
+
+	<assets>
+		<text key="dateFormat">MMM. %d</text>
+		<text key="notOfferingVouchers">Voucher distribution complete:</text>
+		<text key="offeringVouchers">Offering Vouchers: </text>
+		<text key="redemptionPeriod">Vouchers redeemable for 12 months from date of activation.</text>
+		<text key="phone">Phone:</text>
+		<text key="instructions">Roll your mouse over a state to get more information.</text>
+    <text key="linkOfferingText">Additional state voucher information </text>
+    <text key="linkNotOfferingText">Additional state resources</text>
+	</assets>
+
+	<states>
+    <state code="WA">
+      <text key="stateName">Washington</text>
+      <date key="dateStart">2009-6-15</date>
+      <date key="dateEnd">2009-7-31</date>
+      <text key="redemptionPeriod">1 year</text>
+      <url key="url">http://www.go2worksource.com/</url>
+      <double key="dotXCoord">100</double>
+      <double key="dotYCoord">-15</double>
+    </state>
+    <state code="VA">
+      <text key="stateName">Virginia</text>
+      <date key="dateStart">2009-6-15</date>
+      <date key="dateEnd">2009-10-15</date>
+      <text key="redemptionPeriod">1 year</text>
+      <url key="url">http://myfuture.vccs.edu/Default.aspx?tabid=792</url>
+      <double key="dotXCoord">390</double>
+      <double key="dotYCoord">45</double>
+    </state>
+    <state code="IL">
+      <text key="stateName">Illinois</text>
+      <date key="dateStart">2009-7-31</date>
+      <date key="dateEnd">2009-10-31</date>
+      <text key="redemptionPeriod">1 year</text>
+      <url key="url">http://www.illinoisworknet.com/vos_portal/?partner=</url>
+      <double key="dotXCoord">275</double>
+      <double key="dotYCoord">30</double>
+    </state>
+    <state code="IA">
+      <text key="stateName">Iowa</text>
+      <date key="dateStart">2009-7-15</date>
+      <date key="dateEnd">2009-10-29</date>
+      <text key="redemptionPeriod">1 year</text>
+      <url key="url">http://www.iowaworkforce.org/elevateamerica/</url>
+      <double key="dotXCoord">225</double>
+      <double key="dotYCoord">0</double>
+    </state>
+	</states>
+</elevate>

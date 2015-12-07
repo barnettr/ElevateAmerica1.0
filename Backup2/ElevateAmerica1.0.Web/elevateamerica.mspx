@@ -1,0 +1,7 @@
+<!--Toolbar_Exempt-->
+
+<%@ Page language="c#" Inherits="System.Web.UI.Page" %>
+
+<%Response.RedirectLocation = Response.ApplyAppPathModifier("elevateamerica.aspx");
+
+Response.StatusCode = 301;%>
